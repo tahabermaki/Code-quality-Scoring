@@ -13,8 +13,9 @@ The features collected from each Repository are :
    - Number of days between the first and last commits
    - List of comments and docstrings for each file
    
-   Static metrics are extracted after encoding the code and analysing it with Radon library : 
- Metric from heuristic (Cyclomatic Metrics, Raw Metrics, Halstead Metric)
+ #### Static metrics are extracted after encoding the code and analysing it with Radon library.
+ Metric from heuristic (Cyclomatic Metrics, Raw Metrics, Halstead Metric):
+ 
     - halstead_metric
     - percent_comment
     - halstead_vol : volume of the code
@@ -24,6 +25,6 @@ The features collected from each Repository are :
     - Number single_comments
     - Number fo blank lines
     
-    The next step is score aggregation for data labeling 'Bert File'
+ ## The next step is score aggregation for data labeling 'Bert File'
     
-   Next is the construction of a neural network based on BERT and analyzing the code Comments (useful comments or not), On previously labeled data training 
+ ## Next is the construction of a neural network based on BERT and analyzing the code Comments (useful comments or not), On previously labeled data training 
