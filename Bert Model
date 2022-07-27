@@ -1,7 +1,0 @@
-Bert Model Use :
-The Bert model is used to classify programming code comments into:
-good comments (useful ==> adds explanations)
-or a \text{bad comment}: Like useless lines of code transformed into comments
-PS: the comment is always preceded by a hashtag #
-
-This help's us determine if the software follows good programming manners and thus whether the code is of good quality or not
